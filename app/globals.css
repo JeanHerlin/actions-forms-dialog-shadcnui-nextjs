@@ -74,3 +74,37 @@
       @apply bg-background text-foreground;
     }
   }
+
+  /**** Custom CSS ****/
+
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+  }
+
+  select{
+    padding: 0.55rem 0.4rem;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 3px;
+  }
+
+  .primary-button{
+    background: #5A51FF;
+    color: #fff;
+  }
+
+  .danger-button{
+    background: #FA7575;
+    color: #fff;
+  }
+
+  .success-button{
+    background: #5AF598;
+    color: #fff;
+  }
+
+  .error{
+    color: #FA7575;
+  }
